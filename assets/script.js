@@ -22,6 +22,14 @@ const values = [
     {
         name: 'witch-face',
         img: './assets/img/witch-face.png'
+    },
+    {
+        name: 'witch-flight',
+        img: './assets/img/witch-flight.png'
+    },
+    {
+        name: 'daemon-skull',
+        img: './assets/img/daemon-skull.png'
     }
 ];
 
@@ -36,7 +44,6 @@ let firstCard = null;
 let secondCards = null;
 let block = false;
 let score = 0;
-
 
 function createCardElement() {
 
